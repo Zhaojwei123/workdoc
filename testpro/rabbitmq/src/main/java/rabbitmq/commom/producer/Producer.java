@@ -16,15 +16,9 @@ public class Producer {
     public static void main(String[] args) throws IOException, TimeoutException {
 
         ConnectionFactory factory = new ConnectionFactory();
-//        factory.setUsername("boostadmin");
-//        factory.setPassword("boostpwd");
-//        factory.setHost("125.70.226.244");
-//        factory.setPort(5672);
-
         factory.setUsername("guestboost");
         factory.setPassword("guestboost");
         factory.setHost("10.10.1.151");
-
 
         Connection conn = factory.newConnection();
 
